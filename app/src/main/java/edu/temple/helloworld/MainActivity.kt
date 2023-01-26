@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-
 class MainActivity : AppCompatActivity() {
 
     // Declare view properties
@@ -27,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
             /* Write your code here */
 
-            displayTextView.text = "Write code to print a greeting with the entered name when the button is clicked"
+            displayTextView.text = "Hello, " + nameEditText.text.toString()
 
         }
 
